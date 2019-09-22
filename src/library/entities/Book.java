@@ -9,7 +9,8 @@ public class Book implements Serializable, IBook {
     private String callNumber;
     private int id;
 
-    private BookState state;
+    //Modified access level for testing from private to none
+    BookState state;
 
     
     public Book(String author, String title, String callNo, int id) {

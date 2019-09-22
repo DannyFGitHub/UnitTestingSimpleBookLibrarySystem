@@ -17,7 +17,8 @@ public class Patron implements Serializable, IPatron {
     
     private PatronState state;
 
-    private Map<Integer, ILoan> loans;
+    //Modified access level for testing from private to none
+    Map<Integer, ILoan> loans;
 
 
     public Patron(String lastName, String firstName, String email, long phoneNo, int id) {
