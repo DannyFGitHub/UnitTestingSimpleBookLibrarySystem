@@ -6,7 +6,8 @@ public class BorrowBookUI implements IBorrowBookUI {
 	
     private IBorrowBookControl borrowBookControl;
     private Scanner input;
-    private BorrowUIState uiState;
+    //Changing visibility for testing
+    BorrowUIState uiState;
 
 	
     public BorrowBookUI(IBorrowBookControl control) {

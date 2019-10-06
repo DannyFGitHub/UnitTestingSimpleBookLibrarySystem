@@ -12,10 +12,13 @@ public class BorrowBookControl implements IBorrowBookControl {
     private IBorrowBookUI borrowBookUI;
 	
     private ILibrary library;
-    private IPatron currentPatron;
-    private BorrowControlState controlState;
-	
-    private List<ILoan> pendingLoans;
+    //Set visibility for testing
+    IPatron currentPatron;
+    //Set visibility for testing
+    BorrowControlState controlState;
+
+    //Set visibility for testing
+    List<ILoan> pendingLoans;
     private IBook currentBook;
     
 	

@@ -22,7 +22,7 @@ public class Library implements Serializable, ILibrary {
     private Map<Integer, IBook> catalog;
     private Map<Integer, IPatron> patrons;
     //Changed visibility for testing
-    Map<Integer, ILoan> loans;
+    public Map<Integer, ILoan> loans;
     private Map<Integer, ILoan> currentLoans;
     private Map<Integer, IBook> damagedBooks;
     

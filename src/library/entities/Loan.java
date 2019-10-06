@@ -13,7 +13,7 @@ public class Loan implements Serializable, ILoan {
     //Changed Visibility for testing
     Date dueDate;
     //Changed visibility for testing.
-    LoanState state;
+    public LoanState state;
 
     
     public Loan(IBook book, IPatron patron) {
