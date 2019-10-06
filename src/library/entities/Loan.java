@@ -7,10 +7,13 @@ import java.util.Date;
 public class Loan implements Serializable, ILoan {
 
     private int loanId;
-    private IBook book;
+    //Changed visibility for testing
+    IBook book;
     private IPatron patron;
-    private Date dueDate;
-    private LoanState state;
+    //Changed Visibility for testing
+    Date dueDate;
+    //Changed visibility for testing.
+    LoanState state;
 
     
     public Loan(IBook book, IPatron patron) {

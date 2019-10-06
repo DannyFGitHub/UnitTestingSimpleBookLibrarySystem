@@ -21,7 +21,8 @@ public class Library implements Serializable, ILibrary {
 	
     private Map<Integer, IBook> catalog;
     private Map<Integer, IPatron> patrons;
-    private Map<Integer, ILoan> loans;
+    //Changed visibility for testing
+    Map<Integer, ILoan> loans;
     private Map<Integer, ILoan> currentLoans;
     private Map<Integer, IBook> damagedBooks;
     

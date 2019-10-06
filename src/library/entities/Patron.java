@@ -14,10 +14,11 @@ public class Patron implements Serializable, IPatron {
     private long phoneNumber;
     private int id;
     private double finesPayable;
-    
-    private PatronState state;
 
-    //Modified access level for testing from private to none
+    //Modified access level for testing form private
+    PatronState state;
+
+    //Modified access level for testing from private
     Map<Integer, ILoan> loans;
 
 

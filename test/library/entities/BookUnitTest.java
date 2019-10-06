@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class BookTest {
+class BookUnitTest {
 
     Book book;
     String author = "Author1";
